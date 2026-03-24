@@ -35,6 +35,7 @@ The framework follows a layered architecture to ensure maintainability, readabil
   Clean separation of concerns
 ## 3. Project Structure
 
+```
 src/test/java/com.demo.automation
 │
 ├── base        # Base test setup and shared behavior
@@ -45,7 +46,7 @@ src/test/java/com.demo.automation
 ├── utils       # Driver factory and reporting utilities
 ├── config      # Configuration management
 └── listeners   # TestNG listeners for reporting
-
+```
 ## 4. Technology Stack
 Category	Tool
 Language	Java
